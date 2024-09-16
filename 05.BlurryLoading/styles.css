@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #222222;
+    font-family: 'Muli',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin:0
+}
+.bg{
+    background: url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg');
+    position: absolute;
+    top:-30px;
+    left:-30px;
+    height: calc(100vh + 60px);
+    width: calc(100vw + 60px);
+    z-index:-1;
+    filter: blur(0px);
+}
+.loading-text{
+    font-size: 50px;
+    color: white;
+}
